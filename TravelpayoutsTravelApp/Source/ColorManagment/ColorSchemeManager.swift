@@ -8,5 +8,5 @@ class ColorSchemeManager: NSObject {
 
     static let shared = ColorSchemeManager()
 
-    var current: ColorScheme = PurpleColorScheme()
+    var current: ColorScheme = BlackColorScheme()
 }

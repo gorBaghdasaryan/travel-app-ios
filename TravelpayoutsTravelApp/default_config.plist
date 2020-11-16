@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>partner_marker</key>
-	<string></string>
+	<string>162573</string>
 	<key>api_token</key>
-	<string></string>
+	<string>7dfe937043a2a0aa5c03c75bdbda03af</string>
 	<key>appodeal_key</key>
-	<string></string>
+	<string>8a1239477f649817ff37bfe5c07549b03a62ef90797ce196</string>
 	<key>flights_enabled</key>
 	<true/>
 	<key>hotels_enabled</key>
@@ -15,11 +15,12 @@
 	<key>default_locale</key>
 	<string>en</string>
 	<key>firebase_enabled</key>
-	<false/>
+	<true/>
 	<key>app_description</key>
 	<dict>
 		<key>en</key>
-		<string></string>
+		<string>Booker will help you to perfectly plan a trip from flight to hotel reservation. Search includes 728 airlines, 100 agencies and 5 systems of reservation. Both economy and charter flights are included in search results. We look for tickets in OneTwoTrip, Ozon.travel, Tickets.ru, Sinbad, Trip.ru, Svyaznoy.Travel, Biletix, SuperSaver, BiletDV, Tripsta, KupiBilet, Clickavia, Skypicker, Wegolo, Chabooka, DaTravel, Tourix and many other online services. 
+</string>
 		<key>ru</key>
 		<string></string>
 	</dict>

@@ -1,6 +1,6 @@
 source 'https://cdn.cocoapods.org/'
 
-platform :ios, deployment_target: '11.0'
+platform :ios, deployment_target: '12.0'
 use_frameworks! :linkage => :static
 
 install! 'cocoapods',
@@ -36,6 +36,7 @@ target 'TravelpayoutsTravelApp' do
     # pod 'APDChartboostAdapter', '2.7.4.1'
     # pod 'APDFacebookAudienceAdapter', '2.7.4.1'
     # pod 'APDGoogleAdMobAdapter', '2.7.4.1'
+    
     # pod 'APDInMobiAdapter', '2.7.4.1'
     # pod 'APDInnerActiveAdapter', '2.7.4.1'
     # pod 'APDIronSourceAdapter', '2.7.4.1'
@@ -48,19 +49,8 @@ target 'TravelpayoutsTravelApp' do
     # pod 'APDTapjoyAdapter', '2.7.4.1'
     # pod 'APDUnityAdapter', '2.7.4.1'
     # pod 'APDYandexAdapter', '2.7.4.1'
-
-    target 'TravelpayoutsTravelAppTests' do
-        inherit! :search_paths
-    end
 end
 
-target 'SampleFlightsApp' do
-    aviasales_kit_dependencies
-
-    target 'SampleFlightsAppTests' do
-        inherit! :search_paths
-    end
-end
 
 post_install do |installer|
     installer.generated_projects.each do |project|

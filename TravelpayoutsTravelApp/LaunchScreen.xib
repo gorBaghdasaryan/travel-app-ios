@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14865.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14819.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -13,19 +14,44 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Travel App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDx-zQ-Re1">
-                    <rect key="frame" x="131" y="318.5" width="113.5" height="30"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="G61-FQ-vSj">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-top.png" translatesAutoresizingMaskIntoConstraints="NO" id="V73-LE-BUV">
+                    <rect key="frame" x="94" y="200" width="187.5" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="f8S-zt-XHl"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="booker.png" translatesAutoresizingMaskIntoConstraints="NO" id="AMQ-MD-hFT">
+                    <rect key="frame" x="94" y="383.5" width="187.5" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="D28-EC-Zxi"/>
+                    </constraints>
+                </imageView>
             </subviews>
-            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="tDx-zQ-Re1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="1pU-M9-avG"/>
-                <constraint firstItem="tDx-zQ-Re1" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="s1v-YS-BV3"/>
+                <constraint firstItem="V73-LE-BUV" firstAttribute="width" secondItem="AMQ-MD-hFT" secondAttribute="width" id="5Lk-dC-TeW"/>
+                <constraint firstItem="V73-LE-BUV" firstAttribute="centerY" secondItem="G61-FQ-vSj" secondAttribute="centerY" multiplier="0.9" id="6Ag-t4-7RX"/>
+                <constraint firstAttribute="trailing" secondItem="G61-FQ-vSj" secondAttribute="trailing" id="De0-fw-Mjw"/>
+                <constraint firstItem="AMQ-MD-hFT" firstAttribute="centerY" secondItem="G61-FQ-vSj" secondAttribute="centerY" multiplier="1.3" id="Gly-lO-GhF"/>
+                <constraint firstItem="AMQ-MD-hFT" firstAttribute="width" secondItem="G61-FQ-vSj" secondAttribute="width" multiplier="0.5" id="Nar-ta-cfT"/>
+                <constraint firstItem="G61-FQ-vSj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="WQK-lJ-KpU"/>
+                <constraint firstItem="G61-FQ-vSj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="WwD-ij-ySy"/>
+                <constraint firstItem="AMQ-MD-hFT" firstAttribute="centerX" secondItem="G61-FQ-vSj" secondAttribute="centerX" id="ba6-96-f0W"/>
+                <constraint firstItem="V73-LE-BUV" firstAttribute="centerX" secondItem="G61-FQ-vSj" secondAttribute="centerX" id="dnH-nP-dIz"/>
+                <constraint firstAttribute="bottom" secondItem="G61-FQ-vSj" secondAttribute="bottom" id="mrD-CB-qSa"/>
             </constraints>
             <point key="canvasLocation" x="140" y="142"/>
         </view>
     </objects>
+    <resources>
+        <image name="bg.png" width="2048" height="2048"/>
+        <image name="booker.png" width="451" height="111"/>
+        <image name="logo-top.png" width="2048" height="2048"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

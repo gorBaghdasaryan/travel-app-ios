@@ -12,8 +12,6 @@
 		4693D2CA240FD8760036AACE /* App.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE35D8DF229C24C800EF8901 /* App.xcassets */; };
 		46DC5E372424CDDF00C110E1 /* default_config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46DC5E362424CDDF00C110E1 /* default_config.plist */; };
 		7573681B398C6D04C4CD3CAC /* Pods_TravelpayoutsTravelApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B098AE253B4FF377B2B6A383 /* Pods_TravelpayoutsTravelApp.framework */; };
-		BDC87C5D2F916B0E16727839 /* Pods_SampleFlightsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B0F2337CCDD8336ED3B267 /* Pods_SampleFlightsApp.framework */; };
-		CE19A3C52434F39100A30320 /* SampleFlightsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19A3C42434F39100A30320 /* SampleFlightsAppTests.swift */; };
 		CE35D7FA22983B0300EF8901 /* ColorSchemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35D73222983B0300EF8901 /* ColorSchemeManager.swift */; };
 		CE35D7FB22983B0300EF8901 /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35D73422983B0300EF8901 /* ColorScheme.swift */; };
 		CE35D7FD22983B0300EF8901 /* BlackColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE35D73622983B0300EF8901 /* BlackColorScheme.swift */; };
@@ -52,31 +50,11 @@
 		CECC2EC622D5F964003F3996 /* HLAlertsFabric.m in Sources */ = {isa = PBXBuildFile; fileRef = CECC2EC422D5F964003F3996 /* HLAlertsFabric.m */; };
 		CED20042231D42580010A8EB /* AppLocalizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED20041231D42580010A8EB /* AppLocalizations.swift */; };
 		CED20045231D45750010A8EB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CED20047231D45750010A8EB /* Localizable.strings */; };
-		CEFA872622C1004F00AF34A1 /* TravelpayoutsTravelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA872522C1004F00AF34A1 /* TravelpayoutsTravelAppTests.swift */; };
-		CEFB9C71242A3A420027A662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB9C70242A3A420027A662 /* AppDelegate.swift */; };
-		CEFB9C75242A3A420027A662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB9C74242A3A420027A662 /* ViewController.swift */; };
-		CEFB9C7A242A3A460027A662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFB9C79242A3A460027A662 /* Assets.xcassets */; };
-		CEFB9C7D242A3A460027A662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFB9C7B242A3A460027A662 /* LaunchScreen.storyboard */; };
-		D6C6199E8AC7654A80ACF647 /* Pods_TravelpayoutsTravelAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1463DACF1B78B7A3C25503A /* Pods_TravelpayoutsTravelAppTests.framework */; };
-		FAA3C5CF26400707DA650171 /* Pods_SampleFlightsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0F7463689836B28AC66833 /* Pods_SampleFlightsAppTests.framework */; };
+		DE9F8CA4255EE76500AD5AA0 /* booker.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9F8C9F255EE76400AD5AA0 /* booker.png */; };
+		DE9F8CA5255EE76500AD5AA0 /* logo-top.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9F8CA0255EE76400AD5AA0 /* logo-top.png */; };
+		DE9F8CA6255EE76500AD5AA0 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9F8CA1255EE76500AD5AA0 /* bg.png */; };
+		DE9F8CA7255EE76500AD5AA0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9F8CA2255EE76500AD5AA0 /* logo.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CE19A3C72434F39100A30320 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEAAD38D223A80A900E7C5D8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEFB9C6D242A3A420027A662;
-			remoteInfo = SampleFlightsApp;
-		};
-		CEFA872822C1004F00AF34A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEAAD38D223A80A900E7C5D8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEAAD394223A80A900E7C5D8;
-			remoteInfo = TravelpayoutsTravelApp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		09FA86A706F9E1C98E3C707F /* Pods-TravelpayoutsTravelApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelpayoutsTravelApp.debug.xcconfig"; path = "Target Support Files/Pods-TravelpayoutsTravelApp/Pods-TravelpayoutsTravelApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,14 +63,10 @@
 		4693D2C6240FD3CF0036AACE /* TemplateAppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateAppConfiguration.swift; sourceTree = "<group>"; };
 		46DC5E362424CDDF00C110E1 /* default_config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = default_config.plist; sourceTree = "<group>"; };
 		6CA826E536DF850222CAE0B4 /* Pods-TravelpayoutsTravelAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelpayoutsTravelAppTests.debug.xcconfig"; path = "Target Support Files/Pods-TravelpayoutsTravelAppTests/Pods-TravelpayoutsTravelAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		72B0F2337CCDD8336ED3B267 /* Pods_SampleFlightsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleFlightsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92595E2F54527F0AB6C27445 /* Pods-SampleFlightsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleFlightsAppTests.release.xcconfig"; path = "Target Support Files/Pods-SampleFlightsAppTests/Pods-SampleFlightsAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		A3EB6DFA7BF842C3EA35D900 /* Pods-TravelpayoutsTravelAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelpayoutsTravelAppTests.release.xcconfig"; path = "Target Support Files/Pods-TravelpayoutsTravelAppTests/Pods-TravelpayoutsTravelAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		B098AE253B4FF377B2B6A383 /* Pods_TravelpayoutsTravelApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelpayoutsTravelApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA2E270BEA919A4FA567A69E /* Pods-SampleFlightsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleFlightsApp.release.xcconfig"; path = "Target Support Files/Pods-SampleFlightsApp/Pods-SampleFlightsApp.release.xcconfig"; sourceTree = "<group>"; };
-		CE19A3C22434F39100A30320 /* SampleFlightsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleFlightsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE19A3C42434F39100A30320 /* SampleFlightsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleFlightsAppTests.swift; sourceTree = "<group>"; };
-		CE19A3C62434F39100A30320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE35D73222983B0300EF8901 /* ColorSchemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSchemeManager.swift; sourceTree = "<group>"; };
 		CE35D73422983B0300EF8901 /* ColorScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
 		CE35D73622983B0300EF8901 /* BlackColorScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackColorScheme.swift; sourceTree = "<group>"; };
@@ -186,51 +160,20 @@
 		CED2005E231D45960010A8EB /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CEDD058023674787003E9C3A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEDD058123674788003E9C3A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
-		CEFA872322C1004F00AF34A1 /* TravelpayoutsTravelAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelpayoutsTravelAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEFA872522C1004F00AF34A1 /* TravelpayoutsTravelAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelpayoutsTravelAppTests.swift; sourceTree = "<group>"; };
-		CEFA872722C1004F00AF34A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEFB9C6E242A3A420027A662 /* SampleFlightsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleFlightsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEFB9C70242A3A420027A662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEFB9C74242A3A420027A662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEFB9C79242A3A460027A662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CEFB9C7C242A3A460027A662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CEFB9C7E242A3A460027A662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB0F7463689836B28AC66833 /* Pods_SampleFlightsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleFlightsAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1463DACF1B78B7A3C25503A /* Pods_TravelpayoutsTravelAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelpayoutsTravelAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9F8C9F255EE76400AD5AA0 /* booker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = booker.png; sourceTree = "<group>"; };
+		DE9F8CA0255EE76400AD5AA0 /* logo-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-top.png"; sourceTree = "<group>"; };
+		DE9F8CA1255EE76500AD5AA0 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		DE9F8CA2255EE76500AD5AA0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		EAE484593B12249FFBDE962B /* Pods-SampleFlightsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleFlightsApp.debug.xcconfig"; path = "Target Support Files/Pods-SampleFlightsApp/Pods-SampleFlightsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FA9CAAF872E010D672594202 /* Pods-SampleFlightsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleFlightsAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SampleFlightsAppTests/Pods-SampleFlightsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CE19A3BF2434F39100A30320 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAA3C5CF26400707DA650171 /* Pods_SampleFlightsAppTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CEAAD392223A80A900E7C5D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7573681B398C6D04C4CD3CAC /* Pods_TravelpayoutsTravelApp.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEFA872022C1004F00AF34A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6C6199E8AC7654A80ACF647 /* Pods_TravelpayoutsTravelAppTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEFB9C6B242A3A420027A662 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BDC87C5D2F916B0E16727839 /* Pods_SampleFlightsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,20 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				B098AE253B4FF377B2B6A383 /* Pods_TravelpayoutsTravelApp.framework */,
-				E1463DACF1B78B7A3C25503A /* Pods_TravelpayoutsTravelAppTests.framework */,
-				72B0F2337CCDD8336ED3B267 /* Pods_SampleFlightsApp.framework */,
-				DB0F7463689836B28AC66833 /* Pods_SampleFlightsAppTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CE19A3C32434F39100A30320 /* SampleFlightsAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				CE19A3C42434F39100A30320 /* SampleFlightsAppTests.swift */,
-				CE19A3C62434F39100A30320 /* Info.plist */,
-			);
-			path = SampleFlightsAppTests;
 			sourceTree = "<group>";
 		};
 		CE35D72F22983B0300EF8901 /* Source */ = {
@@ -409,6 +340,10 @@
 		CE35D886229BF9A900EF8901 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DE9F8CA1255EE76500AD5AA0 /* bg.png */,
+				DE9F8C9F255EE76400AD5AA0 /* booker.png */,
+				DE9F8CA0255EE76400AD5AA0 /* logo-top.png */,
+				DE9F8CA2255EE76500AD5AA0 /* logo.png */,
 				CE35D8DF229C24C800EF8901 /* App.xcassets */,
 				CE35D889229BF9A900EF8901 /* InfoPlist.strings */,
 				CED20047231D45750010A8EB /* Localizable.strings */,
@@ -420,9 +355,6 @@
 			isa = PBXGroup;
 			children = (
 				CEAAD397223A80A900E7C5D8 /* TravelpayoutsTravelApp */,
-				CEFA872422C1004F00AF34A1 /* TravelpayoutsTravelAppTests */,
-				CEFB9C6F242A3A420027A662 /* SampleFlightsApp */,
-				CE19A3C32434F39100A30320 /* SampleFlightsAppTests */,
 				CEAAD396223A80A900E7C5D8 /* Products */,
 				E7446A59322D4C43AB64D94D /* Pods */,
 				81BD72274673F2E6C52BB882 /* Frameworks */,
@@ -433,9 +365,6 @@
 			isa = PBXGroup;
 			children = (
 				CEAAD395223A80A900E7C5D8 /* TravelpayoutsTravelApp.app */,
-				CEFA872322C1004F00AF34A1 /* TravelpayoutsTravelAppTests.xctest */,
-				CEFB9C6E242A3A420027A662 /* SampleFlightsApp.app */,
-				CE19A3C22434F39100A30320 /* SampleFlightsAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -453,27 +382,6 @@
 				CE35D72F22983B0300EF8901 /* Source */,
 			);
 			path = TravelpayoutsTravelApp;
-			sourceTree = "<group>";
-		};
-		CEFA872422C1004F00AF34A1 /* TravelpayoutsTravelAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				CEFA872522C1004F00AF34A1 /* TravelpayoutsTravelAppTests.swift */,
-				CEFA872722C1004F00AF34A1 /* Info.plist */,
-			);
-			path = TravelpayoutsTravelAppTests;
-			sourceTree = "<group>";
-		};
-		CEFB9C6F242A3A420027A662 /* SampleFlightsApp */ = {
-			isa = PBXGroup;
-			children = (
-				CEFB9C70242A3A420027A662 /* AppDelegate.swift */,
-				CEFB9C74242A3A420027A662 /* ViewController.swift */,
-				CEFB9C79242A3A460027A662 /* Assets.xcassets */,
-				CEFB9C7B242A3A460027A662 /* LaunchScreen.storyboard */,
-				CEFB9C7E242A3A460027A662 /* Info.plist */,
-			);
-			path = SampleFlightsApp;
 			sourceTree = "<group>";
 		};
 		E7446A59322D4C43AB64D94D /* Pods */ = {
@@ -494,25 +402,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE19A3C12434F39100A30320 /* SampleFlightsAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CE19A3CB2434F39100A30320 /* Build configuration list for PBXNativeTarget "SampleFlightsAppTests" */;
-			buildPhases = (
-				8391359D2C7ADEED026EBB91 /* [CP] Check Pods Manifest.lock */,
-				CE19A3BE2434F39100A30320 /* Sources */,
-				CE19A3BF2434F39100A30320 /* Frameworks */,
-				CE19A3C02434F39100A30320 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CE19A3C82434F39100A30320 /* PBXTargetDependency */,
-			);
-			name = SampleFlightsAppTests;
-			productName = SampleFlightsAppTests;
-			productReference = CE19A3C22434F39100A30320 /* SampleFlightsAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		CEAAD394223A80A900E7C5D8 /* TravelpayoutsTravelApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEAAD3A7223A80AA00E7C5D8 /* Build configuration list for PBXNativeTarget "TravelpayoutsTravelApp" */;
@@ -532,44 +421,6 @@
 			productReference = CEAAD395223A80A900E7C5D8 /* TravelpayoutsTravelApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CEFA872222C1004F00AF34A1 /* TravelpayoutsTravelAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CEFA872C22C1004F00AF34A1 /* Build configuration list for PBXNativeTarget "TravelpayoutsTravelAppTests" */;
-			buildPhases = (
-				35397292C89793C78ABF9491 /* [CP] Check Pods Manifest.lock */,
-				CEFA871F22C1004F00AF34A1 /* Sources */,
-				CEFA872022C1004F00AF34A1 /* Frameworks */,
-				CEFA872122C1004F00AF34A1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CEFA872922C1004F00AF34A1 /* PBXTargetDependency */,
-			);
-			name = TravelpayoutsTravelAppTests;
-			productName = TravelpayoutsTravelAppTests;
-			productReference = CEFA872322C1004F00AF34A1 /* TravelpayoutsTravelAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CEFB9C6D242A3A420027A662 /* SampleFlightsApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CEFB9C81242A3A460027A662 /* Build configuration list for PBXNativeTarget "SampleFlightsApp" */;
-			buildPhases = (
-				C666CE89E3931C044BDDC558 /* [CP] Check Pods Manifest.lock */,
-				CEFB9C6A242A3A420027A662 /* Sources */,
-				CEFB9C6B242A3A420027A662 /* Frameworks */,
-				CEFB9C6C242A3A420027A662 /* Resources */,
-				17927FF5977538AA89C62729 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SampleFlightsApp;
-			productName = SampleFlightsApp;
-			productReference = CEFB9C6E242A3A420027A662 /* SampleFlightsApp.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -580,19 +431,8 @@
 				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Go Travel Un Limited";
 				TargetAttributes = {
-					CE19A3C12434F39100A30320 = {
-						CreatedOnToolsVersion = 11.4;
-						TestTargetID = CEFB9C6D242A3A420027A662;
-					};
 					CEAAD394223A80A900E7C5D8 = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					CEFA872222C1004F00AF34A1 = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = CEAAD394223A80A900E7C5D8;
-					};
-					CEFB9C6D242A3A420027A662 = {
-						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
@@ -634,21 +474,11 @@
 			projectRoot = "";
 			targets = (
 				CEAAD394223A80A900E7C5D8 /* TravelpayoutsTravelApp */,
-				CEFA872222C1004F00AF34A1 /* TravelpayoutsTravelAppTests */,
-				CEFB9C6D242A3A420027A662 /* SampleFlightsApp */,
-				CE19A3C12434F39100A30320 /* SampleFlightsAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CE19A3C02434F39100A30320 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CEAAD393223A80A900E7C5D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -656,30 +486,18 @@
 				CEB0C73322B3B41E00D454C8 /* GoogleService-Info.plist in Resources */,
 				CE35D81E22983B0300EF8901 /* InfoScreenAboutCell.xib in Resources */,
 				CE35D8EE229D5CC400EF8901 /* AppIcon.xcassets in Resources */,
+				DE9F8CA4255EE76500AD5AA0 /* booker.png in Resources */,
+				DE9F8CA5255EE76500AD5AA0 /* logo-top.png in Resources */,
+				DE9F8CA6255EE76500AD5AA0 /* bg.png in Resources */,
 				CE35D81D22983B0300EF8901 /* InfoScreenViewController.xib in Resources */,
 				CE35D8D3229BF9A900EF8901 /* InfoPlist.strings in Resources */,
 				CE35D82122983B0300EF8901 /* InfoScreenRateCell.xib in Resources */,
 				CE900A0922A52A1300330E56 /* LaunchScreen.xib in Resources */,
 				4693D2CA240FD8760036AACE /* App.xcassets in Resources */,
 				CE35D82222983B0300EF8901 /* InfoScreenVersionCell.xib in Resources */,
+				DE9F8CA7255EE76500AD5AA0 /* logo.png in Resources */,
 				46DC5E372424CDDF00C110E1 /* default_config.plist in Resources */,
 				CED20045231D45750010A8EB /* Localizable.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEFA872122C1004F00AF34A1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEFB9C6C242A3A420027A662 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEFB9C7D242A3A460027A662 /* LaunchScreen.storyboard in Resources */,
-				CEFB9C7A242A3A460027A662 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,45 +526,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		17927FF5977538AA89C62729 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleFlightsApp/Pods-SampleFlightsApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleFlightsApp/Pods-SampleFlightsApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleFlightsApp/Pods-SampleFlightsApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		35397292C89793C78ABF9491 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TravelpayoutsTravelAppTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		377106953E320ED7A46165CD /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -764,61 +543,9 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelpayoutsTravelApp/Pods-TravelpayoutsTravelApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8391359D2C7ADEED026EBB91 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SampleFlightsAppTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C666CE89E3931C044BDDC558 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SampleFlightsApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CE19A3BE2434F39100A30320 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE19A3C52434F39100A30320 /* SampleFlightsAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CEAAD391223A80A900E7C5D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -857,37 +584,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEFA871F22C1004F00AF34A1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEFA872622C1004F00AF34A1 /* TravelpayoutsTravelAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEFB9C6A242A3A420027A662 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEFB9C75242A3A420027A662 /* ViewController.swift in Sources */,
-				CEFB9C71242A3A420027A662 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CE19A3C82434F39100A30320 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CEFB9C6D242A3A420027A662 /* SampleFlightsApp */;
-			targetProxy = CE19A3C72434F39100A30320 /* PBXContainerItemProxy */;
-		};
-		CEFA872922C1004F00AF34A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CEAAD394223A80A900E7C5D8 /* TravelpayoutsTravelApp */;
-			targetProxy = CEFA872822C1004F00AF34A1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CE35D889229BF9A900EF8901 /* InfoPlist.strings */ = {
@@ -954,71 +651,9 @@
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
-		CEFB9C7B242A3A460027A662 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEFB9C7C242A3A460027A662 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CE19A3C92434F39100A30320 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA9CAAF872E010D672594202 /* Pods-SampleFlightsAppTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = SampleFlightsAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.aviasales.SampleFlightsAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleFlightsApp.app/SampleFlightsApp";
-			};
-			name = Debug;
-		};
-		CE19A3CA2434F39100A30320 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92595E2F54527F0AB6C27445 /* Pods-SampleFlightsAppTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = SampleFlightsAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.aviasales.SampleFlightsAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleFlightsApp.app/SampleFlightsApp";
-			};
-			name = Release;
-		};
 		CEAAD3A5223A80AA00E7C5D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1139,13 +774,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 6.4;
+				DEVELOPMENT_TEAM = 4B63DGFLMT;
 				INFOPLIST_FILE = TravelpayoutsTravelApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 6.4;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.aviasales.sdkexample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gor.booker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TravelpayoutsTravelApp/Source/TravelpayoutsTravelApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -1158,103 +795,19 @@
 			baseConfigurationReference = 0B55F0ED1CDC9C2AA4BEBAFD /* Pods-TravelpayoutsTravelApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CURRENT_PROJECT_VERSION = 6.4;
+				DEVELOPMENT_TEAM = 4B63DGFLMT;
 				INFOPLIST_FILE = TravelpayoutsTravelApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 6.4;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.aviasales.sdkexample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gor.booker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TravelpayoutsTravelApp/Source/TravelpayoutsTravelApp-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		CEFA872A22C1004F00AF34A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CA826E536DF850222CAE0B4 /* Pods-TravelpayoutsTravelAppTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = TravelpayoutsTravelAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoapods-test.TravelpayoutsTravelAppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelpayoutsTravelApp.app/TravelpayoutsTravelApp";
-			};
-			name = Debug;
-		};
-		CEFA872B22C1004F00AF34A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3EB6DFA7BF842C3EA35D900 /* Pods-TravelpayoutsTravelAppTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = TravelpayoutsTravelAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.cocoapods-test.TravelpayoutsTravelAppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravelpayoutsTravelApp.app/TravelpayoutsTravelApp";
-			};
-			name = Release;
-		};
-		CEFB9C7F242A3A460027A662 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAE484593B12249FFBDE962B /* Pods-SampleFlightsApp.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SampleFlightsApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.aviasales.flightsappsample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CEFB9C80242A3A460027A662 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BA2E270BEA919A4FA567A69E /* Pods-SampleFlightsApp.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SampleFlightsApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.aviasales.flightsappsample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1263,15 +816,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE19A3CB2434F39100A30320 /* Build configuration list for PBXNativeTarget "SampleFlightsAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CE19A3C92434F39100A30320 /* Debug */,
-				CE19A3CA2434F39100A30320 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		CEAAD390223A80A900E7C5D8 /* Build configuration list for PBXProject "TravelpayoutsTravelApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1286,24 +830,6 @@
 			buildConfigurations = (
 				CEAAD3A8223A80AA00E7C5D8 /* Debug */,
 				CEAAD3A9223A80AA00E7C5D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CEFA872C22C1004F00AF34A1 /* Build configuration list for PBXNativeTarget "TravelpayoutsTravelAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEFA872A22C1004F00AF34A1 /* Debug */,
-				CEFA872B22C1004F00AF34A1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CEFB9C81242A3A460027A662 /* Build configuration list for PBXNativeTarget "SampleFlightsApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEFB9C7F242A3A460027A662 /* Debug */,
-				CEFB9C80242A3A460027A662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
